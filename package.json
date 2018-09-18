@@ -1,0 +1,17 @@
+{
+  "name": "temp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"src/**/*.spec.js\"",
+    "test-watch": "npm run test -- -w"
+  },
+  "keywords": [],
+  "author": "Gabriel Lebec <glebec@gmail.com> (https://github.com/glebec)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
